@@ -6,15 +6,40 @@ class Projects extends Component {
         super(props);
         this.state = { activeTab: 0 }
     }
+
+    toggleCategories() {
+        if (this.state.activeTab === 0) {
+            return (
+                <div><h1>This is ruby</h1></div>
+            )
+        } else if (this.state.activeTab === 1) {
+            return (
+                <div><h1>This is rails</h1></div>
+            )
+        } else if (this.state.activeTab === 2) {
+            return (
+                <div><h1>This is javascript</h1></div>
+            )
+        } else if (this.state.activeTab === 3) {
+            return (
+                <div><h1>This is react</h1></div>
+            )
+        }
+    }
+
     render() {
         return (
-            <div>
+            <div className='category-tabs'>
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     <Tab>Ruby</Tab>
                     <Tab>Rails</Tab>
                     <Tab>Javascipt</Tab>
                     <Tab>React</Tab>
                 </Tabs>
+
+                <section className='project-grid'>
+                    {this.toggleCategories()}
+                </section>
             </div>
         )
     }
