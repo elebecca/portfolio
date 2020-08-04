@@ -15,14 +15,13 @@ class Projects extends Component {
                 <div className='projects-grid'>
                     {/* Project 1 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >React Project #1</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://github.com/elebecca/Minefield/blob/master/screenshot.png?raw=true) center / cover' }} >Minefield</CardTitle>
                         <CardText>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                            Build a game web application that allow you to play to minefield. The goal of the game is to find the beer follow the arrow.Be careful, if you find the skull you will lose. This is my first attempt to create somthing with Javascript.
+                            The web site is fully responsive
                         </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
+                            <Button colored href='https://github.com/elebecca/Minefield'>GitHub</Button>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
@@ -31,14 +30,13 @@ class Projects extends Component {
 
                     {/* Project 2 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >React Project #2</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://github.com/elebecca/10_local_storage/blob/master/screenshot.PNG?raw=true) center / cover' }} >Locoal Storage</CardTitle>
                         <CardText>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                            Learning how to use local storage and converting data in JSON
             </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
+                            <Button colored href='https://github.com/elebecca/10_local_storage' >GitHub</Button>
+                            <Button colored href='https://codepen.io/ElenaBeccaro/pen/ExPzEKN'>CodePen</Button>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
@@ -47,14 +45,28 @@ class Projects extends Component {
 
                     {/* Project 3 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >React Project #3</CardTitle>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://github.com/elebecca/02_JS_Clock/raw/master/screenshot.PNG) center / cover' }} >Clock</CardTitle>
                         <CardText>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>Live Demo</Button>
+                            <Button colored href='https://github.com/elebecca/02_JS_Clock' >GitHub</Button>
+                            <Button colored href='https://codepen.io/ElenaBeccaro/details/VweOXBB'>CodePen</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+
+                    {/* Project 4 */}
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://github.com/elebecca/05_Flex_panel_gallery/raw/master/screenshot_1.PNG) center / cover' }} >Galley</CardTitle>
+                        <CardText>
+                            build a Galley with Javascript and flexbox.
+            </CardText>
+                        <CardActions border>
+                            <Button colored href='https://github.com/elebecca/05_Flex_panel_gallery' >GitHub</Button>
+                            <Button colored href='https://codepen.io/ElenaBeccaro/pen/dyGEmOJ'>CodePen</Button>
                         </CardActions>
                         <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
@@ -86,9 +98,9 @@ class Projects extends Component {
         return (
             <div>
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
+                    <Tab>Javascript</Tab>
                     <Tab>React</Tab>
-                    <Tab>Angular</Tab>
-                    <Tab>VueJS</Tab>
+                    <Tab>Ruby</Tab>
                     <Tab>MongoDB</Tab>
                 </Tabs>
 
