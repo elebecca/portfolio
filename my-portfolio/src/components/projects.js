@@ -78,7 +78,19 @@ class Projects extends Component {
             )
         } else if (this.state.activeTab === 1) {
             return (
-                <div><h1>This is Angular</h1></div>
+                <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                    <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://github.com/elebecca/COVID-19-Tracker-Application/raw/master/screenshot.PNG) center / cover' }}>Covid Tracker</CardTitle>
+                    <CardText>
+                        Create a full COVID-19 Tracker
+                        </CardText>
+                    <CardActions border>
+                        <Button colored href='https://github.com/elebecca/COVID-19-Tracker-Application'>GitHub</Button>
+                        <Button colored href='https://covid19statswebsite.netlify.app/'>Live</Button>
+                    </CardActions>
+                    <CardMenu style={{ color: '#fff' }}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
             )
         } else if (this.state.activeTab === 2) {
             return (
