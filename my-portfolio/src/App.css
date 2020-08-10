@@ -45,6 +45,12 @@
     border: 2px solid red;
     margin-bottom: 20px;
 }
+.contact-grid hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+}
+
 .banner-text{
     background-color: black;
     opacity: .8;
