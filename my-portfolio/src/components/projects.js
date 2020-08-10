@@ -78,35 +78,67 @@ class Projects extends Component {
             )
         } else if (this.state.activeTab === 1) {
             return (
-                <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                    <CardTitle style={{ color: '#000000', height: '176px', background: 'url(https://github.com/elebecca/COVID-19-Tracker-Application/raw/master/screenshot.PNG) center / cover' }}>Covid Tracker</CardTitle>
-                    <CardText>
-                        Create a full COVID-19 Tracker
+                <div className='projects-grid'>
+
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#000000', height: '176px', background: 'url(https://github.com/elebecca/COVID-19-Tracker-Application/raw/master/screenshot.PNG) center / cover' }}>Covid Tracker</CardTitle>
+                        <CardText>
+                            Create a full COVID-19 Tracker
                         </CardText>
-                    <CardActions border>
-                        <Button colored href='https://github.com/elebecca/COVID-19-Tracker-Application'>GitHub</Button>
-                        <Button colored href='https://covid19statswebsite.netlify.app/'>Live</Button>
-                    </CardActions>
-                    <CardMenu style={{ color: '#fff' }}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
+                        <CardActions border>
+                            <Button colored href='https://github.com/elebecca/COVID-19-Tracker-Application'>GitHub</Button>
+                            <Button colored href='https://covid19statswebsite.netlify.app/'>Live</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+                </div>
             )
         } else if (this.state.activeTab === 2) {
             return (
-                <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                    <CardTitle style={{ color: '#000000', height: '176px', background: 'url(https://github.com/elebecca/CV/raw/master/postbox.PNG) center / cover' }}>Covid Tracker</CardTitle>
-                    <CardText>
-                        PostBox is a Virtual gifting app.In these times of isolation it’s more important than ever to spread happiness. This is a virtual care packages to send to family, friends and other loved ones.
+                <div className='projects-grid'>
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#000000', height: '176px', background: 'url(https://github.com/elebecca/CV/raw/master/postbox.PNG) center / cover' }}>Postbox</CardTitle>
+                        <CardText>
+                            PostBox is a Virtual gifting app.In these times of isolation it’s more important than ever to spread happiness. This is a virtual care packages to send to family, friends and other loved ones.
                         </CardText>
-                    <CardActions border>
-                        <Button colored href='https://github.com/elebecca/MakersPostBox'>GitHub</Button>
-                        <Button colored href='https://makers-postbox.herokuapp.com/'>Live</Button>
-                    </CardActions>
-                    <CardMenu style={{ color: '#fff' }}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
+                        <CardActions border>
+                            <Button colored href='https://github.com/elebecca/MakersPostBox'>GitHub</Button>
+                            <Button colored href='https://makers-postbox.herokuapp.com/'>Live</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#000000', height: '176px', background: 'url(https://github.com/elebecca/CV/raw/master/Makersb&b.PNG) center / cover' }}>MakersB&B</CardTitle>
+                        <CardText>
+                            A full stack Airbnb clone demonstrating core functionality
+                        </CardText>
+                        <CardActions border>
+                            <Button colored href='https://github.com/elebecca/Makersbnb'>GitHub</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: '#000000', height: '176px', background: 'url(https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg) center / cover' }}>tech test</CardTitle>
+                        <CardText>
+                            Tech test in ruby just backaend
+                        </CardText>
+                        <CardActions border>
+                            <Button colored href='https://github.com/elebecca/Week_10-bank_tech_test'>GitHub</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+
+                </div>
 
 
             )
