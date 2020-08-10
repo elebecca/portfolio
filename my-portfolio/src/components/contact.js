@@ -26,13 +26,16 @@ class Contact extends Component {
                         <div className='contact-list'>
                             <List>
                                 <ListItem>
-                                    <ListItemContent icon="person">Bryan Cranston</ListItemContent>
+                                    <ListItemContent style={{ fontSize: '25' }}>
+                                        <i className='fa fa-phone-square' aria-hidden='true' />074 76466111</ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent icon="person">Aaron Paul</ListItemContent>
+                                    <ListItemContent style={{ fontSize: '25' }}>
+                                        <i className='fa fa-envelope' aria-hidden='true' />elena.beccaro@gmail.com</ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
+                                    <ListItemContent style={{ fontSize: '25' }}>
+                                        <i className='fa fa-linkedin-square' aria-hidden='true' />https://www.linkedin.com/in/elenabeccaro/</ListItemContent>
                                 </ListItem>
                             </List>
                         </div>
