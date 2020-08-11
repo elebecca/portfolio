@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './education';
+import Experience from './experience';
+import Skills from './skills';
 
 class Resume extends Component {
     render() {
@@ -38,7 +40,69 @@ class Resume extends Component {
 
                     </Cell>
                     <Cell className='resume-right-col' col={8}>
-                        <Education />
+                        <h2>Education</h2>
+                        <Education
+                            startYear={2020}
+                            endYear={2020}
+                            schoolName='Makers Academy'
+                            schoolDescription='Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur diam turpis, posuere at urna in.'
+                        />
+                        <Education
+                            startYear={2015}
+                            endYear={2025}
+                            schoolName='Dams'
+                            schoolDescription='Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur diam turpis, posuere at urna in.'
+                        />
+                        <hr style={{ borderTop: '3px solid #e22947' }} />
+                        <h2>Experience</h2>
+                        < Experience
+                            startYear={2020}
+                            endYear={2020}
+                            jobName='Developer'
+                            jobDescription='Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur diam turpis, posuere at urna in.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur diam turpis, posuere at urna in.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur diam turpis, posuere at urna in.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur diam turpis, posuere at urna in.'
+                        />
+                        < Experience
+                            startYear={2013}
+                            endYear={2019}
+                            jobName='designer'
+                            jobDescription='Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur diam turpis, posuere at urna in.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur diam turpis, posuere at urna in.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur diam turpis, posuere at urna in.'
+                        />
+                        < Experience
+                            startYear={2015}
+                            endYear={2016}
+                            jobName='designer'
+                            jobDescription='Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur diam turpis, posuere at urna in.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur diam turpis, posuere at urna in.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Curabitur diam turpis, posuere at urna in.'
+                        />
+                        <hr style={{ borderTop: '3px solid #e22947' }} />
+                        <h2>Skills</h2>
+                        <Skills
+                            skill='Javascript'
+                            progress={75}
+                        />
+                        <Skills
+                            skill='HTLM/CSS'
+                            progress={90}
+                        />
+                        <Skills
+                            skill='Ruby'
+                            progress={75}
+                        />
+                        <Skills
+                            skill='React'
+                            progress={50}
+                        />
                     </Cell>
                 </Grid >
             </div >
