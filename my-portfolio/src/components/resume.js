@@ -60,12 +60,21 @@ class Resume extends Component {
                         < Experience
                             startYear={2020}
                             endYear={2020}
-                            jobName='Developer'
-                            jobDescription='Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Curabitur diam turpis, posuere at urna in.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Curabitur diam turpis, posuere at urna in.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Curabitur diam turpis, posuere at urna in.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Curabitur diam turpis, posuere at urna in.'
+                            jobName='Software Engineer training'
+                            jobDescription='Makers Academy is a 16-week intensive coding bootcamp focused on teaching the fundamentals of software engineering with Ruby & JavaScript
+
+                            •	Write code using TDD
+                            •	Creating functional database in PostgreSQL
+                            •	Build a web app back-end and front-end in JavaScript and Ruby
+                            •	Version control with Git, and collaboration with GitHub
+                            •	Follow an effective debugging process'
+                            jobArchivemts='
+                            •	Write clean, reliable, and maintainable code
+                            •	Principles of object-oriented design and test-driven development
+                            •	Pair using the driver-navigator style
+                            •	Work in an agile development team
+                            •	Run stand-ups and retrospectives
+                            •	Break down projects into tasks and allocate them to pairs'
                         />
                         < Experience
                             startYear={2013}

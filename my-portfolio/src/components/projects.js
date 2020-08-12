@@ -33,7 +33,7 @@ class Projects extends Component {
                         <CardTitle style={{ color: '#000000', height: '176px', background: 'url(https://github.com/elebecca/10_local_storage/blob/master/screenshot.PNG?raw=true) center / cover' }} >Locoal Storage</CardTitle>
                         <CardText>
                             Learning how to use local storage and converting data in JSON
-            </CardText>
+                        </CardText>
                         <CardActions border>
                             <Button colored href='https://github.com/elebecca/10_local_storage' >GitHub</Button>
                             <Button colored href='https://codepen.io/ElenaBeccaro/pen/ExPzEKN'>CodePen</Button>
