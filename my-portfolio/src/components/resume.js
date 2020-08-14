@@ -21,9 +21,11 @@ class Resume extends Component {
                             <h2 style={{ paddingTop: '2em' }} >Elena Beccaro</h2>
                             <h4 style={{ color: 'gray' }}>Frontend Developer</h4>
                             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Curabitur diam turpis, posuere at urna in, dictum dignissim sem. Quisque malesuada blandit erat sit amet commodo.
-                                Nam mollis, odio sollicitudin condimentum volutpat, mauris eros tempus quam, quis hendrerit libero metus quis ex. </p>
+                            <p>I am a passionate developer with a strong background in graphic design.
+                            I'm fascinated about the intersection of technology of creativity.
+                            I’ve good communication skills, a can-do attitude and am always looking to go the extra mile.
+                            Recently I’ve been a graduate in Makers Academy (London's leading programming bootcamp) in order to become upskilled with best practice tools and methodologies.
+                            I like to stay up to date with the latest frameworks and programming techniques. </p>
                             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
                             <h5>Adress</h5>
                             <p>19D Hermon Hill, E15 67D, London </p>
