@@ -51,11 +51,10 @@ class Resume extends Component {
                             Curabitur diam turpis, posuere at urna in.'
                         />
                         <Education
-                            startYear={2015}
-                            endYear={2025}
-                            schoolName='Dams'
-                            schoolDescription='Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Curabitur diam turpis, posuere at urna in.'
+                            startYear={2009}
+                            endYear={2013}
+                            schoolName='Università degli Studi di Padova'
+                            schoolDescription='Bachelor degree in Arts'
                         />
                         <hr style={{ borderTop: '3px solid #e22947' }} />
                         <h2>Experience</h2>
@@ -70,7 +69,8 @@ class Resume extends Component {
                             •	Build a web app back-end and front-end in JavaScript and Ruby
                             •	Version control with Git, and collaboration with GitHub
                             •	Follow an effective debugging process'
-                            jobArchivemts='
+
+                            jobArchivemts='Achievements
                             •	Write clean, reliable, and maintainable code
                             •	Principles of object-oriented design and test-driven development
                             •	Pair using the driver-navigator style
@@ -81,20 +81,37 @@ class Resume extends Component {
                         < Experience
                             startYear={2013}
                             endYear={2019}
-                            jobName='designer'
-                            jobDescription='Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Curabitur diam turpis, posuere at urna in.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Curabitur diam turpis, posuere at urna in.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Curabitur diam turpis, posuere at urna in.'
+                            jobName='Designer/ Fronted Software Developer'
+                            jobDescription='For the last 6 years, I have been working as a graphic designer for a different type of SME clients based in the UK and Italy. However, in the last year, I have been working in small projects as a front-end developer.
+
+                            • Development of user interfaces using CSS, HTML, JQuery and Javascript
+                            • Use of Bootstrap 3 for UI design.
+                            • Use of GIT as a collaborative versioning tool.
+                            • Use of Adobe Photoshop/Illustrator/InDesign.
+                            • Design of logos, flyers, advertisements, illustrations, calendars, posters and corporate identity.
+                            • Creation of business cards and brochures.
+                            • Creation of custom-made solutions based on customer’s needs.'
+
+                            jobArchivemts='Achievements
+                            • Work effectively both in team-based environments and independently
+                            • Attention to detail
+                            • Self-trained freelance web developer.'
                         />
                         < Experience
                             startYear={2015}
                             endYear={2016}
-                            jobName='designer'
-                            jobDescription='Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Curabitur diam turpis, posuere at urna in.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Curabitur diam turpis, posuere at urna in.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Curabitur diam turpis, posuere at urna in.'
+                            jobName='Graphic Designer'
+                            jobDescription='Integrity UK is an organisation committed to Countering Extremism through innovative approaches to promoting integration, cohesion and social reconciliation within the MENA region and the UK. We take a multilateral approach to achieve our aims which include capacity building programmes that promote democracy; empower women and local communities, and strengthen grassroots movements.
+
+                            • Updating the UI in the main website with HTML/CSS.
+                            • Use of Adobe Photoshop/Illustrator/InDesign.
+                            • Creation of infographics and images for publications in social media.
+                            • Developing the brand design'
+
+                            jobArchivemts='Achievements
+                            
+                            • Working on several projects simultaneously.
+                            • Manage the time effectively, focusing on tasks of high importance and urgency first.'
                         />
                         <hr style={{ borderTop: '3px solid #e22947' }} />
                         <h2>Skills</h2>
