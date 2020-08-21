@@ -10,8 +10,8 @@ class Experience extends Component {
                 </Cell>
                 <Cell col={8}>
                     <h4 style={{ marginTop: '0px' }}>{this.props.jobName}</h4>
-                    <p>{this.props.jobDescription}</p>
-                    <p>{this.props.jobArchivemts}</p>
+                    <p className="display-linebreak">{this.props.jobDescription}</p>
+                    <p className="display-linebreak">{this.props.jobArchivemts}</p>
                 </Cell>
             </Grid>
         )

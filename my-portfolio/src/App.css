@@ -98,3 +98,6 @@
     padding: 2em;
 
 }
+.display-linebreak {
+    white-space: pre-line;
+  }
