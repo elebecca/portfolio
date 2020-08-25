@@ -10,7 +10,7 @@ class Contact extends Component {
                         <h2>Elena Beccaro</h2>
                         <img src='https://freesvg.org/img/Female-Avatar-5.png'
                             alt='avatar'
-                            className='avatar-img' />
+                            className='contact-avatar-img' />
                         <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
                             I am a passionate developer with a strong background in graphic design.
                             I'm fascinated about the intersection of technology of creativity.

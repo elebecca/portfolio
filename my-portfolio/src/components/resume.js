@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import Me from './profile_pic.jpg'
 
 class Resume extends Component {
     render() {
@@ -12,7 +13,7 @@ class Resume extends Component {
                     <Cell col={4}>
                         <div style={{ textAlign: 'center' }}>
                             <img style={{ textAlign: 'center' }}
-                                src='https://freesvg.org/img/Female-Avatar-5.png'
+                                src={Me}
                                 alt='avatar'
                                 style={{ height: '200px' }}
                             />
