@@ -16,7 +16,7 @@ class Landing extends Component {
                     <Cell col={8}>
                         <div className='banner-text'>
                             <h1>Frontend Developer</h1>
-                            <hr />
+                            <hr style={{ borderTop: '3px solid #e22947' }} />
                             <p> HTLM/CSS | Ruby| Rails | Javascript | React |Jquery | Nodejs</p>
 
                             <div className='social-links'>
