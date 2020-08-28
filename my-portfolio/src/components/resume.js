@@ -11,15 +11,15 @@ class Resume extends Component {
             <div>
                 <Grid>
                     <Cell col={4}>
-                        <div style={{ textAlign: 'center' }}>
-                            <img style={{ textAlign: 'center' }}
+                        <div>
+                            <img className='picture'
                                 src={Me}
                                 alt='avatar'
-                                style={{ height: '200px' }}
+                                style={{ height: '250px' }}
                             />
                         </div>
                         <div>
-                            <h2 style={{ paddingTop: '2em' }} >Elena Beccaro</h2>
+                            <h2 style={{ paddingTop: '1em' }} >Elena Beccaro</h2>
                             <h4 style={{ color: 'gray' }}>Frontend Developer</h4>
                             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
                             <p>I am a passionate developer with a strong background in graphic design.
