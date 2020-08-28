@@ -15,7 +15,7 @@ class Projects extends Component {
                 <div className='projects-grid'>
                     {/* Project 1 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#000000', height: '176px', background: 'url(https://github.com/elebecca/Minefield/blob/master/screenshot.png?raw=true) center / cover' }} >Minefield</CardTitle>
+                        <CardTitle style={{ color: '#e22947', height: '176px', background: 'url(https://github.com/elebecca/Minefield/blob/master/screenshot.png?raw=true) center / cover' }} >Minefield</CardTitle>
                         <CardText>
                             Build a game web application that allow you to play to minefield. The goal of the game is to find the beer follow the arrow.Be careful, if you find the skull you will lose. This is my first attempt to create somthing with Javascript.
                             The web site is fully responsive
@@ -30,7 +30,7 @@ class Projects extends Component {
 
                     {/* Project 2 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#000000', height: '176px', background: 'url(https://github.com/elebecca/10_local_storage/blob/master/screenshot.PNG?raw=true) center / cover' }} >Locoal Storage</CardTitle>
+                        <CardTitle style={{ color: '#e22947', height: '176px', background: 'url(https://github.com/elebecca/10_local_storage/blob/master/screenshot.PNG?raw=true) center / cover' }} >Locoal Storage</CardTitle>
                         <CardText>
                             Learning how to use local storage and converting data in JSON
                         </CardText>
@@ -45,7 +45,7 @@ class Projects extends Component {
 
                     {/* Project 3 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#000000', height: '176px', background: 'url(https://github.com/elebecca/02_JS_Clock/raw/master/screenshot.PNG) center / cover' }} >Clock</CardTitle>
+                        <CardTitle style={{ color: '#e22947', height: '176px', background: 'url(https://github.com/elebecca/02_JS_Clock/raw/master/screenshot.PNG) center / cover' }} >Clock</CardTitle>
                         <CardText>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
@@ -60,7 +60,7 @@ class Projects extends Component {
 
                     {/* Project 4 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#000000', height: '176px', background: 'url(https://github.com/elebecca/05_Flex_panel_gallery/raw/master/screenshot_1.PNG) center / cover' }} >Galley</CardTitle>
+                        <CardTitle style={{ color: '#e22947', height: '176px', background: 'url(https://github.com/elebecca/05_Flex_panel_gallery/raw/master/screenshot_1.PNG) center / cover' }} >Galley</CardTitle>
                         <CardText>
                             build a Galley with Javascript and flexbox.
             </CardText>
@@ -81,7 +81,7 @@ class Projects extends Component {
                 <div className='projects-grid'>
 
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#000000', height: '176px', background: 'url(https://github.com/elebecca/COVID-19-Tracker-Application/raw/master/screenshot.PNG) center / cover' }}>Covid Tracker</CardTitle>
+                        <CardTitle style={{ color: '#e22947', height: '176px', background: 'url(https://github.com/elebecca/COVID-19-Tracker-Application/raw/master/screenshot.PNG) center / cover' }}>Covid Tracker</CardTitle>
                         <CardText>
                             Create a full COVID-19 Tracker
                         </CardText>
@@ -99,7 +99,7 @@ class Projects extends Component {
             return (
                 <div className='projects-grid'>
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#000000', height: '176px', background: 'url(https://github.com/elebecca/CV/raw/master/postbox.PNG) center / cover' }}>Postbox</CardTitle>
+                        <CardTitle style={{ color: '#e22947', height: '176px', background: 'url(https://github.com/elebecca/CV/raw/master/postbox.PNG) center / cover' }}>Postbox</CardTitle>
                         <CardText>
                             PostBox is a Virtual gifting app.In these times of isolation it’s more important than ever to spread happiness. This is a virtual care packages to send to family, friends and other loved ones.
                         </CardText>
@@ -113,7 +113,7 @@ class Projects extends Component {
                     </Card>
 
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#000000', height: '176px', background: 'url(https://github.com/elebecca/CV/raw/master/Makersb&b.PNG) center / cover' }}>MakersB&B</CardTitle>
+                        <CardTitle style={{ color: '#e22947', height: '176px', background: 'url(https://github.com/elebecca/CV/raw/master/Makersb&b.PNG) center / cover' }}>MakersB&B</CardTitle>
                         <CardText>
                             A full stack Airbnb clone demonstrating core functionality
                         </CardText>
@@ -126,7 +126,7 @@ class Projects extends Component {
                     </Card>
 
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#000000', height: '176px', background: 'url(https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg) center / cover' }}>tech test</CardTitle>
+                        <CardTitle style={{ color: '#e22947', height: '176px', background: 'url(https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg) center / cover' }}>tech test</CardTitle>
                         <CardText>
                             Tech test in ruby just backaend
                         </CardText>
