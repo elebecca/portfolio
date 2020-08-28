@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import Project from './project';
 
 
 class Projects extends Component {
@@ -72,6 +73,13 @@ class Projects extends Component {
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
+                    /// refactor 
+                    <Project
+                        img={'https://github.com/elebecca/05_Flex_panel_gallery/raw/master/screenshot_1.PNG'}
+                        description='build a Galley with Javascript and flexbox.'
+                        GitHub={'https://github.com/elebecca/05_Flex_panel_gallery'}
+                    />
+                /// refactor 
                 </div>
 
 

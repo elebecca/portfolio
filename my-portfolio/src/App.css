@@ -112,4 +112,6 @@ i{
 .picture{
     border-radius: 25px;
 }
-
+.card-img{
+    background-size: cover;
+}
